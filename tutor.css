@@ -1,0 +1,99 @@
+.center {
+    margin: 100;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+section, header, footer {
+outline: 1px;
+color: white;
+font-size: 12.56px;
+}
+.menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:focus
+.menu a:hover {
+  text-decoration: underline;
+  color: #A62F00;
+}
+p   {text-align: center;}
+
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+
+header {
+text-align: center;
+}
+body {
+    background: lightblue url(janim.gif) no-repeat fixed center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  flex-direction: column;
+      align-content: center; 
+      
+  }
+  .startpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .startpage header, .startpage footer {
+    flex: 10 0 100%;
+  }
+ 
+  .startpage section {
+    flex: 10 0 22%;
+  }
+  
+
+.startpage h1 {
+font-size: 500%; /* Big title on the start page*/
+}
+
+.tagline {
+font-size: 120%;
+padding: 0.9em; /* distance to the border*/
+border-top: 3px double #4a412a;
+border-bottom: 3px double #4a412a;
+margin: 1em 10; /* distance downwards but not upwards*/
+
+
+
+
+
+}
+
+.menu h2 {
+margin: 0 2 10 em;
+padding: 2em 0;
+background-color: #646361;  /* very light gray*/
+
+
+text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+margin-top: 3em;
+text-align: center;
+color: #4a412a;
+}
+
+.center {
+    margin: auto;
+    width: 25%;
+    border: 3px solid green;
+    padding: 10px;
+  }
